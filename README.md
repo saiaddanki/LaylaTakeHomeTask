@@ -133,16 +133,21 @@ Multiple filter types fail to correctly constrain results:
 **Evidence:**  
 
 *Budget filter showing €100 limit with >€100 results:*
-![Budget filter not working](<Screenshot 2026-08-17 at 08.23.20-1.png>)
+<img width="1728" height="1037" alt="Screenshot 2026-08-17 at 08 23 20-1" src="https://github.com/user-attachments/assets/43cf7b0d-9fdc-4d45-925b-ebff5af6e299" />
+
+
 
 *Additional filter evidence:*
-![Filter issue](<Screenshot 2026-08-17 at 08.23.20.png>)
+<img width="1728" height="1037" alt="Screenshot 2026-08-17 at 08 23 20" src="https://github.com/user-attachments/assets/fa719b75-c5f4-43bf-b681-e0c9745baacd" />
+
 
 *City filter issue - results drop to 9 when city filter removed:*
-![City filter issue](<Screenshot 2026-08-17 at 09.53.25.png>)
+<img width="1160" height="1041" alt="Screenshot 2026-08-17 at 09 53 25" src="https://github.com/user-attachments/assets/461901a0-ac35-4601-b912-65d63b0d7fa5" />
+
 
 *Contradictory breakfast information on same card:*
-![Breakfast data inconsistency](<Screenshot 2026-08-17 at 09.45.35.png>)
+<img width="1719" height="1037" alt="Screenshot 2026-08-17 at 09 45 35" src="https://github.com/user-attachments/assets/64d57bb3-92fa-4ad7-8888-f2f6ffa30a68" />
+
 
 **Root Cause Hypothesis:**  
 - Filters may be "soft" preferences rather than hard constraints
@@ -165,13 +170,19 @@ Multiple filter types fail to correctly constrain results:
 **Evidence:**
 
 *List view - no book option:*
-![List view missing book button](<Screenshot 2026-08-17 at 10.31.11.png>)
+<img width="1728" height="1036" alt="Screenshot 2026-08-17 at 10 31 11" src="https://github.com/user-attachments/assets/3b8cc5bc-49c2-41f3-9b90-38dff6bafbea" />
+
 
 *Map view - book option present:*
-![Map view has book button](<Screenshot 2026-08-17 at 10.31.20.png>)
+<img width="1728" height="1040" alt="Screenshot 2026-08-17 at 10 31 20" src="https://github.com/user-attachments/assets/d58b6fc1-5328-48ac-bfeb-7782b2d3c099" />
+
 
 *Filters non-functional in map view:*
-<video controls src="Screen Recording 2026-08-17 at 10.33.34.mov" title="Filters not working in map view"></video>
+
+
+https://github.com/user-attachments/assets/759c43a0-f7fc-42ff-ade3-9836eb8ec29f
+
+
 
 **User Impact:**  
 - List view users cannot book (conversion killer)
@@ -194,7 +205,9 @@ After initial search, changing:
 ...does NOT update the search results. Results remain from original search.
 
 **Evidence:**
-<video controls src="Screen Recording 2026-08-17 at 10.35.29.mov" title="Date changes not updating results"></video>
+
+https://github.com/user-attachments/assets/a3dc36ad-88af-40ca-a6a5-9985dc5e3b30
+
 
 **User Impact:**  
 Users adjusting travel plans see stale/incorrect availability and pricing.
@@ -214,7 +227,8 @@ After payment failure:
 **Evidence:**
 
 *Limited retry options after payment failure:*
-![Payment retry flow](<Screenshot 2026-08-17 at 10.55.32.png>)
+<img width="1723" height="1035" alt="Screenshot 2026-08-17 at 10 55 32" src="https://github.com/user-attachments/assets/60437659-fcb2-4a38-87e6-a547fb3e21fe" />
+
 
 **User Impact:**  
 - Abandoned bookings when card fails
@@ -248,7 +262,8 @@ Payment failure shows generic message with only "Retry" or "Contact Support" opt
 - Which field might have an error
 
 **Evidence:**
-![Payment failure message](<Screenshot 2026-08-17 at 10.52.39.png>)
+<img width="1723" height="990" alt="Screenshot 2026-08-17 at 10 52 39" src="https://github.com/user-attachments/assets/242c8325-41a6-4ea7-9ff3-58facbb5483e" />
+
 
 **Recommendation:**  
 Display specific, actionable error messages based on payment processor response codes.
@@ -364,7 +379,10 @@ but we haven’t been able to reproduce it consistently.”
 
 **Observed:**
 The issue is reproducible. The same Berlin query produces different results in separate tabs and browsers.
-![alt text](<Screenshot 2026-08-17 at 11.58.14.png>) ![alt text](<Screenshot 2026-08-17 at 11.58.23.png>) ![alt text](<Screenshot 2026-08-17 at 11.59.15.png>)
+<img width="1702" height="1014" alt="Screenshot 2026-08-17 at 11 58 14" src="https://github.com/user-attachments/assets/7777fa33-17dc-471d-a782-e323380614f5" />
+ <img width="1722" height="1037" alt="Screenshot 2026-08-17 at 11 58 23" src="https://github.com/user-attachments/assets/0dc428ae-e674-465d-9db5-5ed0cfb1884f" />
+<img width="1728" height="1046" alt="Screenshot 2026-08-17 at 11 59 15" src="https://github.com/user-attachments/assets/d85c1d49-4027-4c18-98a8-fc97cde3275e" />
+
 
 **Captured evidence:**
 - The captured response for the Berlin search renders the title `City Hotels in Paris for September 2026` and describes a Paris stay from September 17-22, 2026.
