@@ -136,6 +136,10 @@ Multiple filter types fail to correctly constrain results:
 <img width="1728" height="1037" alt="Screenshot 2026-08-17 at 08 23 20-1" src="https://github.com/user-attachments/assets/43cf7b0d-9fdc-4d45-925b-ebff5af6e299" />
 
 
+*Data with <100:*
+<img width="1714" height="984" alt="Screenshot 2026-08-17 at 09 17 15" src="https://github.com/user-attachments/assets/701e754e-1c39-40f8-adb7-f345878755d6" />
+
+
 
 *Additional filter evidence:*
 <img width="1728" height="1037" alt="Screenshot 2026-08-17 at 08 23 20" src="https://github.com/user-attachments/assets/fa719b75-c5f4-43bf-b681-e0c9745baacd" />
